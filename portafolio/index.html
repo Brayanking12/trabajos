@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio personal </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <section class="banner" id="home">
+
+        <div class="imgSidebar">
+            <img src="img/yo.jpeg" alt="">
+        </div>
+       <div class="contentBx">
+        <h5 class="logoText">portafolio</h5>
+        <div>
+            <h4><span>Hola</span>soy</h4>
+            <h2>Brayan Estiven Beltran Reyes </h2>
+            <h4>Soy un desarollador web especializado en backend y base de datos </h4>
+            <p>Me llamo Brayan Beltran estudiante de adsi de quinto trimestre soy estudiante de analisis 
+                y desarollado de sistemas de informacion mas especializado en backend y tengo un buen manejo
+                de bases de datos. </p>
+            <a href="#" class="btn">aboutme</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+        </ul>
+       </div>
+    </section>
+
+    <section class="about" id="sobre mi">
+        <div class="title white">
+            <h2>Sobre Mi</h2>
+            <p>El arte desafia a la 
+             tecnologia y la tecnologia inspira el arte </p>
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <p>Me llamo Brayan Beltran, tengo 19 años de edad vivo en soacha olivos IV actualmente
+                    estoy estudiando en la institucion de sena ,soy tecnico en mecatronica,y
+                    en el colegio maneje leguaje basico  de html,css ,soy bueno con en el manejo de base de datos
+                    no tengo experiencia laboral aun pero se trabajar en equipo tengo um gran pontencial por 
+                    explotar y aprendo rapido.   </p>
+
+            </div>
+            <div class="imgBx">
+                <img src="img/brayan1.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="services " id="servicios">
+        <div class="title ">
+            <h2>Mis servicios</h2>
+            <p>Te mostrare lo que se hacer y en lo que me puedo desempeñar</p>
+            <div class="content">
+                <div class="servicesBx">
+                    <img src="img/web.png" alt="">
+                    <h2>html</h2>
+                    <p>Te ayudare a entender los concepto basicos de html para que inicies hacer tu pagina web  </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="img/icon7.png" alt="">
+                    <h2>css</h2>
+                    <p>Con mi ayuda le podras poner tu propio estilo y toque a tu pagina con css </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="img/consola.png" alt="">
+                    <h2>javascript</h2>
+                    <p> te puedo ayudar en javascript enseñandote  los conceptos basicos para que puedas interactuar con tu pagina web   </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="img/variable.png" alt="">
+                    <h2>php</h2>
+                    <p>es un sistema de administración de bases de datos,no es más que una aplicación ,
+                        permite gestionar archivos llamados de bases de datos. </p>
+                </div>
+                <div class="servicesBx">
+                    <img src="img/chatbot.png" alt="">
+                    <h2>Mysql</h2>
+                    <p> con mysql te puedo ayudar hacer una buena base de datos para tu pagina web </p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <section class="portfolio " id="Portafolio">
+        <div class="title ">
+            <h2>Mis proyectos</h2>
+            <p>Mis proyectos logrados hasta ohora</p>
+            <div class="content">
+                <div class="portfolioBx">
+                    <img src="img/encicloplay.PNG" alt="">
+                    <h2>encicloplay</h2>
+                    <p> un lugar para que los niños aprendan jugando </p>
+                </div>
+    </section>
+    <section class="work"></section>
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">home</a></li>
+            <li><a href="#sobre mi" onclick="toggleMenu();">Sobre mi</a></li>
+            <li><a href="#servicios" onclick="toggleMenu();">Servicios</a></li>
+            <li><a href="#Portafolio"onclick="toggleMenu();">Portafolio</a></li>
+            <li><a href="resgistrar/index.php">Crud </a></li>
+            <li><a href="manuales/index1.html">manuales </a></li>
+            <li><a href="Javascript/ejercicios.html">java</a></li>
+            <li><a href="#">contacto</a></li>
+        </ul>
+    </div>
+    
+    
+    
+    
+    <script>
+        function toggleMenu(){
+            const menutoggle= document.querySelector('.toggle')
+            const sidebar= document.querySelector('.sidebar')
+            menutoggle.classList.toggle('active')
+            sidebar.classList.toggle('active')
+        }
+    </script>
+    
+</body>
+</html>

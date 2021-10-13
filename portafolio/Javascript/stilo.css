@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+body{
+
+	text-align: center;
+	background-color: #eee8e0;
+	border-width: 30;
+	width:120%;
+	max-height:20% ;
+	min-height:20% ;
+	right: 120%;
+	border-width: 20%;
+   color:black; 
+    font-family: 'Akronim', cursive;
+}

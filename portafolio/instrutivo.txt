@@ -1,0 +1,15 @@
+1. descargar la carpeta portafolio que esta en github
+
+2.desde su navegador abra la carpeta de esta forma:localhost/portafolio/index.html
+
+3 lo primero que vera es el inicio con una pequeña del desarrollador.
+
+4 en la parte superior derecha hay tre lines con darle un click se desplegara un menu que  lo lleva a difrentes partes de portafolio
+
+5 abra la carpeta portafolio hay encontraraun capeta llamada base y dentro de ella encontrara un archivo .sql
+
+6 importar el archivo en xammp mysql
+
+7 una vez lo tenga importado habra el menu  y vaya a donde dice crud y ah podra encontrar un fomulario llenelo y de le un click en registrar
+
+8 despues  podra ver un link en morado que dice consulte y podra visulizar una tabla con los registros 
